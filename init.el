@@ -99,21 +99,21 @@
   "...XX...")
 
 (fringe-helper-define 'git-gutter-fr:deleted nil
-  "X......."
-  "XX......"
-  "XXX....."
-  "XXXX...."
-  "XXXXX..."
-  "XXXXXX.."
-  "XXXXXXX."
-  "XXXXXXXX"
-  "XXXXXXX."
-  "XXXXXX.."
-  "XXXXX..."
-  "XXXX...."
-  "XXX....."
-  "XX......"
-  "X......."
+  "........"
+  "........"
+  "........"
+  "..X....."
+  "..XX...."
+  "..XXX..."
+  "..XXXX.."
+  "..XXXXX."
+  "..XXXX.."
+  "..XXX..."
+  "..XX...."
+  "..X....."
+  "........"
+  "........"
+  "........"
   )
 
 (fringe-helper-define 'git-gutter-fr:modified nil
