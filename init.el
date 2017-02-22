@@ -184,7 +184,9 @@
  '(menu-bar-mode nil)
  '(tool-bar-mode nil)
  '(cua-mode t)
- '(blink-cursor-mode nil))
+ '(blink-cursor-mode nil)
+ '(git-gutter:update-interval 2)
+ )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
