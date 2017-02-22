@@ -17,6 +17,7 @@
 	doom-themes
 	nlinum
 	git-gutter-fringe
+	company
 	))
 
 ;;
@@ -59,6 +60,7 @@
 (load-theme 'doom-one t) ;; or doom-dark, etc.
 (require 'doom-nlinum)
 
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;      () management
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -71,6 +73,7 @@
 ;;;;;;;;;;;;;;;;;;
 (require 'nlinum)
 (global-nlinum-mode t)
+
 
 ;;;;;;;;;;;;;;;;;;
 ;;    GUTTER
@@ -140,7 +143,8 @@
 (global-git-gutter-mode t)
 
 
-
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
 
 
 
