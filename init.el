@@ -21,7 +21,6 @@
 	flycheck
 	all-the-icons
 	neotree
-	projectile
 	))
 
 ;;
@@ -164,9 +163,12 @@
 ;;  NEOTREE
 ;;;;;;;;;;;;;;
 (require 'neotree)
+;; even with the a-t-i package, the icons might not be installed.
+;; To do so, copy all files from
+;; ----https://github.com/domtronn/all-the-icons.el/tree/master/fonts
+;; in the .fonts directory in the home directory
 (require 'all-the-icons)
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
-(setq projectile-switch-project-action 'neotree-projectile-action)
 (global-set-key (kbd "M-n") 'neotree-toggle)
 
 
