@@ -19,6 +19,9 @@
 	git-gutter-fringe
 	company
 	flycheck
+	all-the-icons
+	neotree
+	projectile
 	))
 
 ;;
@@ -155,6 +158,16 @@
 ;;  FLYCHECK
 ;;;;;;;;;;;;;;
 (global-flycheck-mode)
+
+
+;;;;;;;;;;;;;;
+;;  NEOTREE
+;;;;;;;;;;;;;;
+(require 'neotree)
+(require 'all-the-icons)
+(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+(setq projectile-switch-project-action 'neotree-projectile-action)
+(global-set-key (kbd "M-n") 'neotree-toggle)
 
 
 ;;
