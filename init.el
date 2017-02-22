@@ -18,6 +18,7 @@
 	nlinum
 	git-gutter-fringe
 	company
+	flycheck
 	))
 
 ;;
@@ -149,7 +150,8 @@
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
 
-
+;;  FLYCHECK
+(global-flycheck-mode)
 
 
 ;;
@@ -163,10 +165,15 @@
  '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
  '(tool-bar-mode nil)
- '(cua-mode t))
+ '(cua-mode t)
+ '(blink-cursor-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
+(provide 'init)
+;;; init.el ends here
