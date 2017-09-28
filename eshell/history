@@ -1,0 +1,4 @@
+make
+./main 
+cd ..
+cat TP1/exo2/MAKEFILE 

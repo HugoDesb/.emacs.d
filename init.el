@@ -21,6 +21,7 @@
 	flycheck
 	all-the-icons
 	neotree
+	eclim
 	))
 
 ;;
@@ -61,7 +62,7 @@
       doom-one-brighter-comments nil
       )
 (load-theme 'doom-one t) ;; or doom-dark, etc.
-(require 'doom-nlinum)
+(require 'doom-themes-nlinum)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
