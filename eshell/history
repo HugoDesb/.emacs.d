@@ -2,3 +2,38 @@ make
 ./main 
 cd ..
 cat TP1/exo2/MAKEFILE 
+ls
+cd doom-themes-20180418.2016/
+ls
+grep nlinum *
+ls
+cat doom-themes-common.elc
+cat doom-themes-common.el
+cat doom-themes-common.el
+git status
+cd .emacs.d/
+git status
+git branch simple
+git status
+git checkout simple
+ls
+git checkout master
+ls
+cat init.el 
+git log --graph
+git help
+git reset
+cat init.el 
+git branch
+git reset c6a185
+git reset c6a18c5e8bfce0dfdc6e0c5a73a8ca57531ab756
+git status
+git checkout 
+cat init.el 
+git fetch
+cat init.el 
+git fetch origin
+git 
+git pull
+git reset c6a18c5e8bfce0dfdc6e0c5a73a8ca57531ab756
+cat init.el 
